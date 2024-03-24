@@ -1,4 +1,4 @@
-package com.example.flixter
+package com.example.flixter2
 
 // RetrofitInstance.kt
 import retrofit2.Retrofit
@@ -23,5 +23,9 @@ object RetrofitInstance {
 interface MovieApiService {
     @GET("movie/now_playing")
     fun getNowPlayingMovies(@Query("api_key") apiKey: String): Call<MovieResponse>
+
+    @GET("movie/top_rated")
+    fun getTopRatedMovies(@Query("api_key") apiKey: String): Call<MovieResponse>
+
 }
 

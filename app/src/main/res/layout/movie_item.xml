@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/imageViewMoviePoster"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@mipmap/ic_launcher" /> <!-- Placeholder image -->
@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Title" />
 
-    <TextView
+    <!--TextView
         android:id="@+id/textViewDescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -31,5 +31,16 @@
         app:layout_constraintTop_toBottomOf="@id/textViewTitle"
         app:layout_constraintStart_toStartOf="@id/textViewTitle"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Description" />
+        android:text="Description" /-->
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintStart_toStartOf="@id/textViewTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Rating" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.flixter
+package com.example.flixter2
 
 data class Movie(val title: String, val overview: String, val poster_path: String)
 

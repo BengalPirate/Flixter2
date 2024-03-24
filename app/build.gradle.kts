@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.flixter"
+    namespace = "com.example.flixter2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.flixter"
+        applicationId = "com.example.flixter2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -50,11 +50,12 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+    implementation("com.github.bumptech.glide:glide:4.11.0")
+    implementation("jp.wasabeef:glide-transformations:4.3.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
 
-    implementation("androidx.compose.compiler:compiler:1.3.2")
-    implementation("androidx.compose.ui:ui-tooling:1.3.2")
+    implementation("androidx.compose.compiler:compiler:1.5.11")
+    implementation("androidx.compose.ui:ui-tooling:1.6.4")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
