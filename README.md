@@ -28,16 +28,13 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented Top Rated Movies:
 
 <img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWYzNGVnbzd6cHBraHB2M2NyZXl5MHFha3o5bXg1ejR4MnRrOHlvNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a2DPnS8ZhgSCPeVZUn/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## License
 
